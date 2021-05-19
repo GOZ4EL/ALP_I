@@ -9,23 +9,25 @@
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <nav class="teal lighten-2">
-            <div class="nav-wraper teal lighten-2">
-                <a href="#" class="right brand-logo">ALP</a>
-                <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li><a class="nav-el" href="#">Página Principal</a></li>
-                    <li><a class="nav-el" href="./computerScience.html">Sobre la Informática</a></li>
-                    <li><a class="nav-el" href="./about.html">Sobre Mí</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="navbar-fixed">
+            <nav class="teal lighten-2">
+                <div class="nav-wraper teal lighten-2">
+                    <a href="#" class="right brand-logo">ALP</a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li class="active"><a class="navl-el" href="#">Página Principal</a></li>
+                        <li><a class="nav-el" href="./computerScience.html">Sobre la Informática</a></li>
+                        <li><a class="nav-el" href="./about.html">Sobre Mí</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
-        <h1 class="header">Algoritmo y Programación I</h1>
+        <div class="main-header">
+            <h1 class="header">Algoritmo y Programación I</h1>
+        </div>
         
-        <hr>
-
         <section id="description">
-            <h2 class="header">¿De qué se trata?</h2>
+            <h3 class="header">¿De qué se trata?</h3>
             <p>
                 Con esta materia, se quiere enseñar a los futuros profesionales en el area de la 
                 informática las competencias básicas necesarias a nivel de manejo de 
@@ -44,7 +46,7 @@
         </section>
 
         <section id="content">
-            <h2 class="header">Contenido</h2>
+            <h3 class="header">Contenido</h3>
             <p>
                 Los contenidos pueden variar en algunos detalles dependiendo del período en 
                 el cual se esté viendo la materia, ya que, al estarse siempre mejorando el 
@@ -61,37 +63,37 @@
                 serlo también.
             </p>
             
-            <h4>Esta es la lista general de los temas dados en la materia:</h4>
-            <ul id="content-list">
-                <li>Arrays (Arreglos)</li>
-                <li>Structs (EStructuras)</li>
-                <li>Clases</li>
-                <li>Punteros (Si son soportados por el lenguaje utilizado)</li>
-                <li>Pilas y Colas | Listas</li>
+            <h4 class="header">Esta es la lista general de los temas dados en la materia:</h4>
+            <ul class="collection">
+                <li class="collection-item teal lighten-4">Arrays (Arreglos)</li>
+                <li class="collection-item teal lighten-4">Structs (EStructuras)</li>
+                <li class="collection-item teal lighten-4">Clases</li>
+                <li class="collection-item teal lighten-4">Punteros (Si son soportados por el lenguaje utilizado)</li>
+                <li class="collection-item teal lighten-4">Pilas y Colas | Listas</li>
             </ul>
         </section>
 
         <section id="appendix">
-            <h1 class="header">¿Sabías que?</h1>
-            <ul>
-                <li>
+            <h2 class="header">¿Sabías que?</h2>
+            <ul class="collection">
+                <li class="collection-item teal lighten-4">
                     El origen de la palabra "array" viene de "arragement", lo cual explicaría 
                     que su traducción al español sea "arreglo" 
                 </li>
-                <li>
+                <li class="collection-item teal lighten-4">
                     Los arreglos no son llamados vectores, ya que un vector es un elemento de 
                     un espacio vectorial, lo cual implica que sus elementos cumplen con una 
                     serie de propiedades y se pueden aplicar sobre ellos una serie de 
                     operaciones que no siempre son posibles en un arreglo; por lo tanto usar 
                     este nombre podría llevar a confusiones
                 </li>
-                <li>
+                <li class="collection-item teal lighten-4">
                     Los punteros son compatibles directamente sin restricciones en lenguajes 
                     como PL/1, C, C++, Pascal, y la mayoría de los lenguajes ensambladores. 
                     Sin embargo, en la mayoría de lenguajes modernos o no están disponibles o 
                     solo pueden usarse bajo ciertas circunstancias. 
                 </li>
-                <li>
+                <li class="collection-item teal lighten-4">
                     Las pilas, colas y listas son consideradas las tres estructuras de datos 
                     lineales fundamentales, siendo estas muy parecidas entre sí y muy distintas 
                     de estructuras multidimensionales como los grafos o los árboles
