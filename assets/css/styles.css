@@ -3,7 +3,16 @@
     padding: 30px;
     text-align: center;
 }
+
 .header {
     color: #008B8B;
     font-weight: 300;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+#description, #content, #appendix, #profile, #requirements, #skills {
+    padding:2rem
 }
