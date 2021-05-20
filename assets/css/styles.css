@@ -23,8 +23,9 @@ main {
     text-align: justify;
 }
 
-#description, #content, #appendix, #profile, #requirements, #skills {
-    padding:2rem
+.bio-img {
+    width: 128px;
+    height: 128px;
 }
 
 .fa {  
