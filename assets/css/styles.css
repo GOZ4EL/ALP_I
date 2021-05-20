@@ -28,6 +28,10 @@ main {
     height: 128px;
 }
 
+.bio-text {
+    font-size: 1.5rem;
+}
+
 .fa {  
     padding: .5rem;
   }  
